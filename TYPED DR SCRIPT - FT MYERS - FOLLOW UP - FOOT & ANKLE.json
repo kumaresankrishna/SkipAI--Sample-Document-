@@ -1,8 +1,8 @@
-{"patient_details": {"patient_name": "Veronica Chapa",
-  "phone": "239-338-8119",
-  "date": "12/29/22",
-  "dob": "12/02/82",
-  "diagnosis_icd10": "NA",
+{"patient_details": {"patient_name": "Walter Davis Js",
+  "phone": "NA",
+  "date": "12/23/22",
+  "dob": "01/02/44",
+  "diagnosis_icd10": "M66.372,M76,822",
   "auth": "NA"
   },
  "contrast_information": {"bun": "NA",
@@ -10,7 +10,7 @@
   "egfr": "NA",
   "date_labs_performed": "NA"
   },
- "physician_details": {"physician_notes_or_other_procedures": "NA",
+ "physician_details": {"physician_notes_or_other_procedures": "WorseMeal 2 Ancle Pain Probable Wilkins DPM",
   "physician_name": "Shawn Suchdev",
   "physician_signature": "NA"
   },
@@ -18,21 +18,18 @@
   "office_fax": "239-271-155",
   "after_hours": "NA"
   },
- "imaging_types": {"mri": {"iv_contrast": {"without": True,
+ "imaging_types": {"mri": {"iv_contrast": {"without": False,
     "with_and_without": False
       },
-   "cervical_spine": {"is_checked": True,
-    "sides": {"is_right_checked": False, "is_left_checked": True
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": True
+   "cervical_spine": {"is_checked": False,
+    
+    "studies": {"alar_protocol": False, "flexion_extension": False
         }
       },
    "thoracic_spine": False,
    "lumbar_spine": False,
    "brain": {"is_checked": False,
-    "sides": {"is_right_checked": False, "is_left_checked": False
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": False
+    "sides": {"Trauma SWI/DTI": False, "3D Volumetric Analysis": False
         }
       },
    "iacs_brain_protocol": False,
@@ -40,52 +37,36 @@
    "orbits": False,
    "face": False,
    "neck": False,
-   "hip": {"is_checked": True,
-    "sides": {"is_right_checked": True, "is_left_checked": False
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": False
+   "hip": {"is_checked": False,
+    "sides": {"is_right_checked": False, "is_left_checked": False
         }
       },
    "knee": {"is_checked": True,
     "sides": {"is_right_checked": False, "is_left_checked": True
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": False
         }
       },
    "ankle": {"is_checked": False,
     "sides": {"is_right_checked": False, "is_left_checked": False
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": False
         }
       },
    "foot": {"is_checked": False,
     "sides": {"is_right_checked": False, "is_left_checked": False
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": False
         }
       },
    "shoulder": {"is_checked": True,
     "sides": {"is_right_checked": True, "is_left_checked": False
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": False
         }
       },
    "elbow": {"is_checked": False,
     "sides": {"is_right_checked": False, "is_left_checked": False
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": False
         }
       },
    "wrist": {"is_checked": False,
     "sides": {"is_right_checked": False, "is_left_checked": False
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": False
         }
       },
    "hand": {"is_checked": False,
     "sides": {"is_right_checked": False, "is_left_checked": False
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": False
         }
       },
    "other": "NA",
@@ -104,10 +85,8 @@
       },
    "circle_of_willis": False,
    "carotid_neck": {"is_checked": False,
-    "sides": {"is_right_checked": False, "is_left_checked": False
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": False
-        }
+    "sides": {"without": False, "with_and_without": False
+  }
       },
    "thoracic_aorto_chest": False,
    "abdomen_with_without_iv_contrast": False,
@@ -118,12 +97,10 @@
    "other": "NA",
    "reconstruction_3d_modeling": False
     },
-  "xray": {"chest_2views": True,
-   "spine": True,
+  "xray": {"chest_2views": False,
+   "spine": False,
    "neck": {"is_checked": False,
-    "sides": {"is_right_checked": False, "is_left_checked": True
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": True
+    "studies": {"Cervical": False, "thoracic": False, "Lumber":False, "C-Spine flexion_extension":False, "L-Spine Flex/Ext" : False, "flexion_extension":False
         }
       },
    "dovis_series": False,

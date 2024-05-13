@@ -1,7 +1,7 @@
-{"patient_details": {"patient_name": "Veronica Chapa",
-  "phone": "239-338-8119",
-  "date": "12/29/22",
-  "dob": "12/02/82",
+{"patient_details": {"patient_name": "Sheila Blatchford",
+  "phone": "NA",
+  "date": "10/31/22",
+  "dob": "12/16/66",
   "diagnosis_icd10": "NA",
   "auth": "NA"
   },
@@ -10,44 +10,40 @@
   "egfr": "NA",
   "date_labs_performed": "NA"
   },
- "physician_details": {"physician_notes_or_other_procedures": "NA",
-  "physician_name": "Shawn Suchdev",
+ "physician_details": {"physician_notes_or_other_procedures": "MUA Sept 30 inter Arm Tiagling / Aendard RToccipitol IBX -consist Occation Caif Point",
+  "physician_name": "David Collins",
   "physician_signature": "NA"
   },
- "office_contact_details": {"office_phone": "239-271-6535",
-  "office_fax": "239-271-155",
+ "office_contact_details": {"office_phone": "NA",
+  "office_fax": "239-514-4044",
   "after_hours": "NA"
   },
  "imaging_types": {"mri": {"iv_contrast": {"without": True,
     "with_and_without": False
       },
    "cervical_spine": {"is_checked": True,
-    "sides": {"is_right_checked": False, "is_left_checked": True
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": True
+    
+    "studies": {"alar_protocol": True, "flexion_extension": False
         }
       },
    "thoracic_spine": False,
-   "lumbar_spine": False,
+   "lumbar_spine": True,
    "brain": {"is_checked": False,
-    "sides": {"is_right_checked": False, "is_left_checked": False
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": False
-        }
-      },
+    "sides": {"Trauma SWI/DTI": False, "3D Volumetric Analysis": False
+      }},
    "iacs_brain_protocol": False,
    "pituitary_brain_protocol": False,
    "orbits": False,
    "face": False,
    "neck": False,
-   "hip": {"is_checked": True,
-    "sides": {"is_right_checked": True, "is_left_checked": False
+   "hip": {"is_checked": False,
+    "sides": {"is_right_checked": False, "is_left_checked": False
         },
     "studies": {"alar_protocol": False, "flexion_extension": False
         }
       },
-   "knee": {"is_checked": True,
-    "sides": {"is_right_checked": False, "is_left_checked": True
+   "knee": {"is_checked": False,
+    "sides": {"is_right_checked": False, "is_left_checked": False
         },
     "studies": {"alar_protocol": False, "flexion_extension": False
         }
@@ -64,8 +60,8 @@
     "studies": {"alar_protocol": False, "flexion_extension": False
         }
       },
-   "shoulder": {"is_checked": True,
-    "sides": {"is_right_checked": True, "is_left_checked": False
+   "shoulder": {"is_checked": False,
+    "sides": {"is_right_checked": False, "is_left_checked": False
         },
     "studies": {"alar_protocol": False, "flexion_extension": False
         }
@@ -118,12 +114,12 @@
    "other": "NA",
    "reconstruction_3d_modeling": False
     },
-  "xray": {"chest_2views": True,
-   "spine": True,
+  "xray": {"chest_2views": False,
+   "spine": False,
    "neck": {"is_checked": False,
-    "sides": {"is_right_checked": False, "is_left_checked": True
+    "sides": {"is_right_checked": False, "is_left_checked": False
         },
-    "studies": {"alar_protocol": False, "flexion_extension": True
+    "studies": {"alar_protocol": False, "flexion_extension": False
         }
       },
    "dovis_series": False,

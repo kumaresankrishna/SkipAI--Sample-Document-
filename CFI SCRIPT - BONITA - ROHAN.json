@@ -1,8 +1,8 @@
-{"patient_details": {"patient_name": "Veronica Chapa",
-  "phone": "239-338-8119",
-  "date": "12/29/22",
-  "dob": "12/02/82",
-  "diagnosis_icd10": "NA",
+{"patient_details": {"patient_name": " Jos Alejanoro Rosales",
+  "phone": "(407) 664-4223",
+  "date": "11/29/22",
+  "dob": "3/5/05",
+  "diagnosis_icd10": "M54.2.S13.4XXA",
   "auth": "NA"
   },
  "contrast_information": {"bun": "NA",
@@ -11,123 +11,119 @@
   "date_labs_performed": "NA"
   },
  "physician_details": {"physician_notes_or_other_procedures": "NA",
-  "physician_name": "Shawn Suchdev",
+  "physician_name": "Dr. Peter Rohan",
   "physician_signature": "NA"
   },
- "office_contact_details": {"office_phone": "239-271-6535",
-  "office_fax": "239-271-155",
+ "office_contact_details": {"office_phone": "239-631-5445",
+  "office_fax": "239-631-5458",
   "after_hours": "NA"
   },
- "imaging_types": {"mri": {"iv_contrast": {"without": True,
-    "with_and_without": False
-      },
-   "cervical_spine": {"is_checked": True,
-    "sides": {"is_right_checked": False, "is_left_checked": True
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": True
-        }
-      },
-   "thoracic_spine": False,
-   "lumbar_spine": False,
-   "brain": {"is_checked": False,
-    "sides": {"is_right_checked": False, "is_left_checked": False
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": False
-        }
-      },
-   "iacs_brain_protocol": False,
-   "pituitary_brain_protocol": False,
-   "orbits": False,
-   "face": False,
-   "neck": False,
-   "hip": {"is_checked": True,
-    "sides": {"is_right_checked": True, "is_left_checked": False
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": False
-        }
-      },
-   "knee": {"is_checked": True,
-    "sides": {"is_right_checked": False, "is_left_checked": True
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": False
-        }
-      },
-   "ankle": {"is_checked": False,
-    "sides": {"is_right_checked": False, "is_left_checked": False
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": False
-        }
-      },
-   "foot": {"is_checked": False,
-    "sides": {"is_right_checked": False, "is_left_checked": False
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": False
-        }
-      },
-   "shoulder": {"is_checked": True,
-    "sides": {"is_right_checked": True, "is_left_checked": False
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": False
-        }
-      },
-   "elbow": {"is_checked": False,
-    "sides": {"is_right_checked": False, "is_left_checked": False
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": False
-        }
-      },
-   "wrist": {"is_checked": False,
-    "sides": {"is_right_checked": False, "is_left_checked": False
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": False
-        }
-      },
-   "hand": {"is_checked": False,
-    "sides": {"is_right_checked": False, "is_left_checked": False
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": False
-        }
-      },
-   "other": "NA",
-   "reconstruction_3d_modeling": False
+  "imaging_types": {"mri": {"iv_contrast": {"without": True,
+  "with_and_without": False
     },
-  "upright_open_mri": {"iv_contrast": {"without": False,
-    "with_and_without": False
-      },
-   "brain": False,
-   "cervical_spine": {"alar_protocol": False, "flexion_extension": False
-      },
-   "thoracic_spine": False,
-   "lumbar_spine": False
+ "cervical_spine": {"is_checked": True,
+  
+  "studies": {"alar_protocol": True, "flexion_extension": False
+      }
     },
-  "mra": {"iv_contrast": {"without": False, "with_and_without": False
+ "thoracic_spine": False,
+ "lumbar_spine": True,
+ "brain": {"is_checked": False,
+  "sides": {"Trauma SWI/DTI": False, "3D Volumetric Analysis": False
+    }},
+ "iacs_brain_protocol": False,
+ "pituitary_brain_protocol": False,
+ "orbits": False,
+ "face": False,
+ "neck": False,
+ "hip": {"is_checked": False,
+  "sides": {"is_right_checked": False, "is_left_checked": False
       },
-   "circle_of_willis": False,
-   "carotid_neck": {"is_checked": False,
-    "sides": {"is_right_checked": False, "is_left_checked": False
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": False
-        }
-      },
-   "thoracic_aorto_chest": False,
-   "abdomen_with_without_iv_contrast": False,
-   "renal_arteries": False,
-   "pelvis_iliac": False,
-   "mrv_head_brain": False,
-   "neck": False,
-   "other": "NA",
-   "reconstruction_3d_modeling": False
+  "studies": {"alar_protocol": False, "flexion_extension": False
+      }
     },
-  "xray": {"chest_2views": True,
-   "spine": True,
-   "neck": {"is_checked": False,
-    "sides": {"is_right_checked": False, "is_left_checked": True
-        },
-    "studies": {"alar_protocol": False, "flexion_extension": True
-        }
+ "knee": {"is_checked": False,
+  "sides": {"is_right_checked": False, "is_left_checked": False
       },
-   "dovis_series": False,
-   "other": "NA"
-    }
+  "studies": {"alar_protocol": False, "flexion_extension": False
+      }
+    },
+ "ankle": {"is_checked": False,
+  "sides": {"is_right_checked": False, "is_left_checked": False
+      },
+  "studies": {"alar_protocol": False, "flexion_extension": False
+      }
+    },
+ "foot": {"is_checked": False,
+  "sides": {"is_right_checked": False, "is_left_checked": False
+      },
+  "studies": {"alar_protocol": False, "flexion_extension": False
+      }
+    },
+ "shoulder": {"is_checked": False,
+  "sides": {"is_right_checked": False, "is_left_checked": False
+      },
+  "studies": {"alar_protocol": False, "flexion_extension": False
+      }
+    },
+ "elbow": {"is_checked": False,
+  "sides": {"is_right_checked": False, "is_left_checked": False
+      },
+  "studies": {"alar_protocol": False, "flexion_extension": False
+      }
+    },
+ "wrist": {"is_checked": False,
+  "sides": {"is_right_checked": False, "is_left_checked": False
+      },
+  "studies": {"alar_protocol": False, "flexion_extension": False
+      }
+    },
+ "hand": {"is_checked": False,
+  "sides": {"is_right_checked": False, "is_left_checked": False
+      },
+  "studies": {"alar_protocol": False, "flexion_extension": False
+      }
+    },
+ "other": "NA",
+ "reconstruction_3d_modeling": False
+  },
+"upright_open_mri": {"iv_contrast": {"without": False,
+  "with_and_without": False
+    },
+ "brain": False,
+ "cervical_spine": {"alar_protocol": False, "flexion_extension": False
+    },
+ "thoracic_spine": False,
+ "lumbar_spine": False
+  },
+"mra": {"iv_contrast": {"without": False, "with_and_without": False
+    },
+ "circle_of_willis": False,
+ "carotid_neck": {"is_checked": False,
+  "sides": {"is_right_checked": False, "is_left_checked": False
+      },
+  "studies": {"alar_protocol": False, "flexion_extension": False
+      }
+    },
+ "thoracic_aorto_chest": False,
+ "abdomen_with_without_iv_contrast": False,
+ "renal_arteries": False,
+ "pelvis_iliac": False,
+ "mrv_head_brain": False,
+ "neck": False,
+ "other": "NA",
+ "reconstruction_3d_modeling": False
+  },
+"xray": {"chest_2views": False,
+ "spine": False,
+ "neck": {"is_checked": False,
+  "sides": {"is_right_checked": False, "is_left_checked": False
+      },
+  "studies": {"alar_protocol": False, "flexion_extension": False
+      }
+    },
+ "dovis_series": False,
+ "other": "NA"
   }
+}
 }
